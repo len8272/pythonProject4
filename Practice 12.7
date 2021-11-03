@@ -1,0 +1,26 @@
+try:
+    ticket = int(input('Количество билетов, которые нужно приобрести: '))
+    if ticket <= 0:
+except ValueError as error:
+    print("Неверный ввод")
+sum = 0
+sum1 = 990
+sum2 = 1390
+for ticket in range(ticket):
+    print('Сколько вам лет?')
+    age = int(input('Введите возраст: '))
+    if age < 18:
+        sum += 0
+    if 18 <= age < 25:
+        sum += sum1
+    if 25 <= age:
+        sum += sum2
+if ticket > 3:
+    sum = sum*0.9
+    print(f'Сумма со скидкой 10%: {sum} рублей')
+else:
+    print(f'Сумма покупки: {sum} рублей')
+
+
+
+
